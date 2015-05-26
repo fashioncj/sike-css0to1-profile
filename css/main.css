@@ -127,7 +127,7 @@ color:#03A9F4;
 .nav_top--blog { 
   width:33.3%;
   padding-top:100px;
-  background-image: url(../img/skill-code.png);
+  background-image: url(../img/nav_blog.png);
   background-repeat: no-repeat;
   background-position: center top;   
 }
@@ -135,7 +135,7 @@ color:#03A9F4;
 .nav_top--safelab{
   width:33.3%;
   padding-top:100px;
-  background-image: url(../img/skill-design.png);
+  background-image: url(../img/nav_safelab.png);
   background-repeat: no-repeat;
   background-position: center top;  
 }
@@ -143,7 +143,7 @@ color:#03A9F4;
 .nav_top--love {
   width:33.3%;
   padding-top:100px;
-  background-image: url(../img/skill-product.png);
+  background-image: url(../img/nav_love.png);
   background-repeat: no-repeat;
   background-position: center top;  
 }
