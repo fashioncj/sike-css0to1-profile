@@ -28,13 +28,13 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
     Our own stylesheet.
     -->
     <link rel="stylesheet" href="css/main.css">
-	<link href='http://fonts.useso.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
     <div class="container">
       <header class="main-header">
-        <img class="main-header__avatar" src="img/teng.jpg" alt="">
+        <img class="main-header__avatar" src="img/chen.jpg" alt="">
         <h1>Do you like me ! O(∩_∩)O~~</h1>
       </header>
 
@@ -42,7 +42,8 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         <ul>
           <li><a href="#navigation">Navigation</a></li>
           <li><a href="#education-experience">Project</a></li>
-          <li><a href="#">Introduction</a></li>
+          <li><a href="#">Photo</a></li>
+          <li><a href="#">About Me</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -59,7 +60,7 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
           </li>
           <li class="navigation_skill nav_top--safelab">
             <h3><a href="http://safelab.chenjia.me" target= _blank>Safelab</a></h3>
-            <p>I will post something about my research for Web&Android security.</p>
+            <p>I will post something about my research for Web &amp; Android security.</p>
           </li>
           <li class="navigation_skill nav_top--love">
             <h3><a href="http://qrjem.chenjia.me" target= _blank>Love Jem</a></h3>
@@ -68,28 +69,56 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         </ul>
       </section>
 
-      <section class="info-section education-experience">
+      <section class="info-section project">
         <header>
-          <h2>Education &amp; Experience</h2>
+          <h2>Application &amp; Project</h2>
         </header>
-        <ul class="education-experience__list">
+        <ul class="Project_list">
           <li>
-            <img src="img/strikingly-logo.png" alt="Strikingly">
-            <h3>Strikingly</h3>
-            <p class="education-experience__title">Cofounder, 2012 - Present</p>
-            <p class="education-experience__description">Strikingly is a website builder that's simple, beautiful, and fun. And perfect for the age of mobile. I'm in charge of UI/UX and front-end.</p>
+            <img src="img/android_logo.png" alt="Android Logo">
+            <div class="Project_text">
+            <h3>Android Application</h3>
+            <p class="Project_title">2012年入坑Android,现在处于Android深度研究中。</p>
+            <p class="Project_description">
+            <a href="http://cv.chenjia.me/files/MemberManage1.1.1.apk">MemberManage</a>[2014]企业员工管理系统-暑期实训项目</br>
+            <a href="http://cv.chenjia.me/files/ImSherlocker">Lock for sherlock</a>[2014]贴吧娱乐-夏洛克解锁</br>
+            <a href="http://cv.chenjia.me/files/CurriculumV1.2.2.apk">Curriculum</a>[2014]口袋学霸，山大的课程格子</br>
+            <a href="http://cv.chenjia.me/files/PhoneHelpV1.1.5.apk">Phonehelp</a>[2013]实现来电时移动短号自动匹配长号</br>
+            <a href="http://cv.chenjia.me/files/SDUWifihelper1.1.5.apk">i-wifi</a>[2013]山东大学无线网登录程序【停止更新-仅软件校区可用】</br>
+            <a href="http://cv.chenjia.me/files/OnlineNews2.3.0.apk">OnlineNews</a>[2012]山东大学新闻客户端</br>
+            
+			
+            </p>
+         </div>
+         </li>
+         
+          <li>
+            <img src="img/web_icon.png" alt="Web logo">
+            <div class="Project_text">
+            <h3>Web &amp; Java &amp; Other Project</h3>
+            <p class="Project_title">用Java写点小程序，搭建一下好玩的网站，以及其他的一些程序。</p>
+            <p class="Project_description">
+            <a href="http://git.chenjia.me" target=_blank>GitLab</a>私有的GitLab服务器</br>
+            <a href="http://lab.chenjia.me target=_blank">My Lab</a>提供实验室服务</br>
+            <a href="http://wp.chenjia.me target=_blank">Clever4u</a>基于WordPress的网站，停止更新。</br>
+            <a href="http://wp.chenjia.me/somepages/cyjl/cyjl.php target=_blank">Phrases One by One</a>成语接龙PHP版本，可以自动或手动接龙</br>
+            <a href="http://wp.chenjia.me/somepages/liuyan/list.php target=_blank">Talk Board</a>快速留言板，被爬虫攻击现地址改为index.php</br>
+            <a href="http://wp.chenjia.me/somepages/chinashenfenzhengcheck.html target=_blank">身份证校验</a>基于js的中国大陆居民身份证校验脚本</br>
+            <a href="http://wp.chenjia.me/somepages/info.php target=_blank">请求信息显示</a>快速查看当前HTTP请求各种信息脚本</br>  
+            </p>
+          </div>
           </li>
           <li>
-            <img src="img/echo-rocket.jpg" alt="Echo Rocket">
-            <h3>Freelance Web/Game Developer</h3>
-            <p class="education-experience__title">2007 - 2012</p>
-            <p class="education-experience__description">EchoRocket was my one-man Flash game studio and web development/design consultancy. I built Spinblaster, Block Knocker, CampusAmp, HireBrite, and more!</p>
-          </li>
-          <li>
-            <img src="img/u-of-chicago.jpg" alt="">
-            <h3>University of Chicago</h3>
-            <p class="education-experience__title">BA Economics, 2008-2012</p>
-            <p class="education-experience__description">Studying the finer points of firms, markets, finance, decision theory, and supply and demand.</p>
+            <img src="img/Research_logo.png" alt="Research logo" style="border-radius:899px;">
+            <div class="Project_text">
+            <h3>Paper &amp; Research Project</h3>
+            <p class="Project_title">本科期间的研究项目，文章以及即将到来的硕士期间的论文。</p>
+            <p class="Project_description">
+            <a href="#">Android企业私有API发现</a>[2015]毕业论文</br>
+            <a href="#">APK网络流静态分析框架</a>[2015]内部使用框架*</br>
+            <a href="http://wp.chenjia.me/somepages/Phishing%20_wifi_search.pdf">Phishing Wi-Fi Research</a>[2014]安全协议课程实验报告</br>
+            </p>
+            </div>
           </li>
         </ul>
       </section>
@@ -97,9 +126,9 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
       <section class="info-section photos">
         <header>
           <h2>Photos</h2>
-          <p class="info-section__description">Some pics from my travels!</p>
+          <p class="info-section_description">美人，美食，美景</p>
         </header>
-        <ul class="photos__list">
+        <ul class="photos_list">
           <li>
             <img src="img/p01.jpg" alt="">
           </li>
