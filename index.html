@@ -28,7 +28,7 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
     Our own stylesheet.
     -->
     <link rel="stylesheet" href="css/main.css">
-    <link href='http://fonts.useso.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,300,400' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
@@ -41,14 +41,14 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
       <nav class="main-nav">
         <ul>
           <li><a href="#navigation">Navigation</a></li>
-          <li><a href="#education-experience">Project</a></li>
-          <li><a href="#">Photo</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#photos">Photo</a></li>
+          <li><a href="#about_me">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
-      <section class="info-section navigation">
+      <section id="navigation" class="info-section navigation">
         <header>
           <h2>CLEVER FOR YOU</h2>
           <p class="info-section_description">不患无位，患所以立||Enjoy simple,record & share</p>
@@ -69,7 +69,7 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         </ul>
       </section>
 
-      <section class="info-section project">
+      <section id="project" class="info-section project">
         <header>
           <h2>Application &amp; Project</h2>
         </header>
@@ -123,7 +123,7 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         </ul>
       </section>
 
-      <section class="info-section photos">
+      <section id="photos" class="info-section photos">
         <header>
           <h2>Photos</h2>
           <p class="info-section_description">美人，美食，美景</p>
@@ -156,31 +156,51 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         </ul>
       </section>
 
-      <section class="info-section get-in-touch">
-        <header>
-          <h2>Get in Touch</h2>
+      <section id="about_me" class="info-section about_me">
+       <header>
+          <h2>About Me</h2>
         </header>
-        <ul class="get-in-touch__list">
+        <div class="about_me_text">
+        <h3>教育经历</h3>
+        <p>[2015.9-至今] 山东大学计算机科学与技术学院 网络与信息安全学科组</p>
+        <p>[2011.9-2015.6] 山东大学软件学院软件工程专业</p>
+        <h3>简介</h3>
+        <p>专注于网络与移动设备安全，开发Android Application，热衷于小工具开发，
+        偶尔接接外包来缓解钱包压力。非常欢迎您来和我交换想法和创意。爱喝奶茶，如果您觉得
+        我的项目/博客对您有帮助，或者您就是想土豪一把，那就扫描右边的二维码请我喝一杯奶茶吧！</p>
+        <p>我的详细简历请访问：<a href="http://cv.chenjia.me" target=_blank>陈佳的简历</a></p>
+        </div>
+        <img class="about-me_milktea" src="img/alipay_code.png" alt="alipay code"/>
+      
+      
+      
+      </section>
+      
+      <section id="contact" class="info-section contact">
+        <header>
+          <h2>Get In Touch</h2>
+        </header>
+        <ul class="get-in-touch_list">
           <li>
-            <a href="#"><img src="img/fb-icon.png" alt=""></a>
-            <p>Facebook</p>
+            <a href="https://github.com/fashioncj" target=_blank><img src="img/1_github.png" alt="github"></a>
+            <p>GitHub</p>
           </li>
           <li>
-            <img src="img/twitter-icon.png" alt="">
-            <p>Twitter</p>
+            <a href="mailto://me@chenjia.me"><img src="img/2_email.png" alt="E-mail"></a>
+            <p>E-mail</p>
           </li>
-          <li>
-            <img src="img/linkedin-icon.png" alt="">
-            <p>Twitter</p>
+           <li>
+            <a href="http://weibo.com/cj93" target=_blank><img src="img/3_weibo.png" alt="Weibo"></a>
+            <p>Weibo</p>
           </li>
-          <li>
-            <img src="img/email-icon.png" alt="">
-            <p>Twitter</p>
+            <li>
+            <a href="http://lnkd.in/bNqwSB4" target=_blank><img src="img/4_linkedin.png" alt="Linkedin"></a>
+            <p>Linkedin</p>
           </li>
         </ul>
       </section>
 
-      <section class="info-section contact">
+<!--       <section class="info-section contact">
         <header>
           <h2>Or...Leave a Message</h2>
         </header>
@@ -193,11 +213,9 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
           <textarea name="message" id="message"></textarea>
           <button type="submit">Submit</button>
         </form>
-      </section>
+      </section> -->
 
     </div>
-
-
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400' rel='stylesheet' type='text/css'>
+    <footer>Copyright © 2015 Chenjia.me. All Rights Reserved.</footer>
   </body>
 </html>
